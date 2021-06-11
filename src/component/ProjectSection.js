@@ -21,7 +21,7 @@ const ProjectSection = () => {
 
   const containerStyle = {
     position: 'relative',
-    backgroundImage: `url(${background})`,
+    backgroundColor:'white',  
     backgroundPosition: 'center',
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
