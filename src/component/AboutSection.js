@@ -7,6 +7,7 @@ import Button from '@material-ui/core/Button';
 import PhoneAndroidIcon from '@material-ui/icons/PhoneAndroid';
 import Typography from '@material-ui/core/Typography';
 import EmailIcon from '@material-ui/icons/Email';
+import AboutTerminal from './AboutTerminal';
 
 
 const useStyles = makeStyles({
@@ -58,9 +59,10 @@ const AboutSection = () => {
             <Paper className={classes.paper}><h1>About me</h1></Paper>
           </Grid>
           <Grid item xs={6}>
-            <Paper className={classes.paper2}>
+           
+     
           
-                <Typography variant="h6" display="block" gutterBottom>
+                {/* <Typography variant="h6" display="block" gutterBottom>
                 My name is Robbie, I'm a Graduate in University Of Toronto/Computer Science background. I have
                 a great passion for Web Development!.
                 <br/>
@@ -74,8 +76,9 @@ const AboutSection = () => {
                 
 
                 
-      </Typography>
-            </Paper>
+      </Typography> */}
+      <AboutTerminal/>
+          
           </Grid>
           <Grid item xs={6} justifyContent='center' >
           

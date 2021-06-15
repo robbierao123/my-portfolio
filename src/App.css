@@ -20,4 +20,105 @@ body {
     
   }
 
+  .terminal {
+    border-radius: 5px 5px 0 0;
+    position: relative;
+    height:90%;
+    
   
+}
+.terminal .top {
+    background: #E8E6E8;
+    color: black;
+    padding: 5px;
+    border-radius: 5px 5px 0 0;
+}
+.terminal .btns {
+    position: absolute;
+    top: 7px;
+    left: 5px;
+}
+.terminal .circle {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    border-radius: 15px;
+    margin-left: 2px;
+    border-width: 1px;
+    border-style: solid;
+}
+.title{
+    text-align: center;
+}
+.red { background: #EC6A5F; border-color: #D04E42; }
+.green { background: #64CC57; border-color: #4EA73B; }
+.yellow{ background: #F5C04F; border-color: #D6A13D; }
+.clear{clear: both;}
+.terminal .body {
+    background: black;
+    color: #7AFB4C;
+    padding: 8px;
+    overflow: auto;
+    height:100%;
+}
+.space {
+    /* margin: 25px; */
+}
+.shadow { box-shadow: 0px 0px 10px rgba(0,0,0,.4)}
+
+.line1 {
+  color: #9CD9F0;
+
+}
+
+.line2 {
+  color: #CDEE69;
+
+}
+
+.line3 {
+  color: #ad21c0;
+
+}
+.line4 {
+  color: #e70f21;
+
+}
+
+.cursor4 {
+  -webkit-animation: blink 1s 11.5s infinite;
+  -moz-animation: blink 1s 8.5s infinite;
+  -o-animation: blink 1s 8.5s infinite;
+  animation: blink 1s 8.5s infinite;
+}
+
+
+.blinking-cursor {
+  font-weight: 100;
+  font-size: 30px;
+  color: #2E3D48;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+
+
+
+ /* blinking cursor */
+.cursor {
+  background: lime;
+  line-height: 17px;
+  margin-right: auto;
+ animation: blink 0.8s infinite;
+  width: 7px;
+  height: 15px;
+}
+
+@keyframes blink {
+  0% {background: #222}
+  50% {background: lime}
+  100% {background: #222}
+}

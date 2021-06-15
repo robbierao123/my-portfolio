@@ -7,9 +7,11 @@ import VideoCover from './component/VideoCover';
 import ProjectSection from './component/ProjectSection';
 import AboutSection from './component/AboutSection'
 import Contact from './component/Contact'
+import AboutTerminal from './component/AboutTerminal';
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Home } from '@material-ui/icons';
+
 
 
 
@@ -30,6 +32,8 @@ const App = () =>{
      <ProjectSection />
 
      <AboutSection />
+
+
      
 
     </div>
