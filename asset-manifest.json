@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.e678677e.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.ee77535b.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.ee77535b.chunk.js.map",
+    "main.css": "/my-portfolio/static/css/main.6f13bed3.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.9b46e0b5.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.9b46e0b5.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.6ad5f9c6.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.6ad5f9c6.js.map",
-    "static/js/2.9945b24a.chunk.js": "/my-portfolio/static/js/2.9945b24a.chunk.js",
-    "static/js/2.9945b24a.chunk.js.map": "/my-portfolio/static/js/2.9945b24a.chunk.js.map",
+    "static/js/2.86f8890a.chunk.js": "/my-portfolio/static/js/2.86f8890a.chunk.js",
+    "static/js/2.86f8890a.chunk.js.map": "/my-portfolio/static/js/2.86f8890a.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "static/css/main.e678677e.chunk.css.map": "/my-portfolio/static/css/main.e678677e.chunk.css.map",
-    "static/js/2.9945b24a.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.9945b24a.chunk.js.LICENSE.txt",
+    "static/css/main.6f13bed3.chunk.css.map": "/my-portfolio/static/css/main.6f13bed3.chunk.css.map",
+    "static/js/2.86f8890a.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.86f8890a.chunk.js.LICENSE.txt",
     "static/media/background.3759a2ad.jpg": "/my-portfolio/static/media/background.3759a2ad.jpg",
     "static/media/comingsoon.ee15a58d.png": "/my-portfolio/static/media/comingsoon.ee15a58d.png",
     "static/media/contactProject.9a92799d.jpg": "/my-portfolio/static/media/contactProject.9a92799d.jpg",
+    "static/media/node.4ffd30ab.png": "/my-portfolio/static/media/node.4ffd30ab.png",
+    "static/media/react.ae9c5b34.png": "/my-portfolio/static/media/react.ae9c5b34.png",
     "static/media/techvideo.d28831bc.mp4": "/my-portfolio/static/media/techvideo.d28831bc.mp4",
     "static/media/violinImg.16b4f71b.jpg": "/my-portfolio/static/media/violinImg.16b4f71b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.6ad5f9c6.js",
-    "static/js/2.9945b24a.chunk.js",
-    "static/css/main.e678677e.chunk.css",
-    "static/js/main.ee77535b.chunk.js"
+    "static/js/2.86f8890a.chunk.js",
+    "static/css/main.6f13bed3.chunk.css",
+    "static/js/main.9b46e0b5.chunk.js"
   ]
 }
