@@ -5,6 +5,7 @@ body {
   overflow-x: hidden; 
 }
 
+
 /* use viewport-relative units to cover page fully */
 body {
   height: 100vh;
@@ -121,4 +122,51 @@ body {
   0% {background: #222}
   50% {background: lime}
   100% {background: #222}
+}
+
+/* 
+skillcard section */
+
+.cardcontainer{
+  width:80%;
+  margin: auto;
+  padding-top:10%;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.skillcardwrap{
+  display:grid;
+  grid-template-columns: auto auto auto;
+
+
+
+}
+
+.skillContainer{
+  text-align: center;
+}
+
+.AboutContainer{
+  padding-top: 5%;
+
+  padding-bottom: 5%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.skillheading{
+  font-family: 'Anton', sans-serif;
+}
+
+.AboutHeader{
+  font-family: 'Anton', sans-serif;
+  font-size: 40px;
+  color:#4EA73B;
+
+  text-align:center;
+  display:inline-block;
+  position:relative;
+  width:100%; /*Add this*/
+
 }

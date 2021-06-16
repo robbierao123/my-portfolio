@@ -8,103 +8,86 @@ import PhoneAndroidIcon from '@material-ui/icons/PhoneAndroid';
 import Typography from '@material-ui/core/Typography';
 import EmailIcon from '@material-ui/icons/Email';
 import AboutTerminal from './AboutTerminal';
+import SkillCard from './SkillCard';
+
+import javascriptImg from '../img/javascript.png'
+import htmlImg from '../img/html5.png'
+import reactImg from '../img/react.png'
+import cssImg from '../img/css.png'
+import nodeImg from '../img/node.png'
+import sqlImg from '../img/SQL.png'
 
 
-const useStyles = makeStyles({
-    root: {
-      flexGrow: 1,
-      width:'65%',
-      margin:'auto',
-      paddingTop:'10vh',
-      marginBottom:'10vh',
+// const useStyles = makeStyles({
+//     root: {
+//       flexGrow: 1,
+//       width:'65%',
+//       margin:'auto',
+//       paddingTop:'10vh',
+//       marginBottom:'10vh',
       
       
-    },
-    paper: {
-      padding: 2,
-      textAlign: 'center',
-      height:'10vh',
-      margin:'2em',
-      display:"flex",
-      flexDirection: "column",
-      justifyContent: 'center',
-      backgroundColor: '#fcf8ec',
+//     },
+//     paper: {
+//       padding: 2,
+//       textAlign: 'center',
+//       height:'10vh',
+//       margin:'2em',
+//       display:"flex",
+//       flexDirection: "column",
+//       justifyContent: 'center',
+//       backgroundColor: '#fcf8ec',
 
  
      
-    },
-    paper2: {
-        padding: 2,
-        textAlign: 'center',
-        height:'50vh',
-        display:"flex",
-        flexDirection: "column",
-        justifyContent: 'center',
-        backgroundColor: '#fcf8ec',
+//     },
+//     paper2: {
+//         padding: 2,
+//         textAlign: 'center',
+//         height:'50vh',
+//         display:"flex",
+//         flexDirection: "column",
+//         justifyContent: 'center',
+//         backgroundColor: '#fcf8ec',
 
     
-      },
+//       },
 
 
-  });
+//   });
 
 const AboutSection = () => {
-    const classes = useStyles();
+
+
+  
+
 
     return (
-       <div id="about" style={{backgroundColor: '#fcf8ec', height:'100%'}}>
-        <div className={classes.root}>
-        <Grid className ={classes.skill} container spacing={3}   > 
-          <Grid item xs={12} variant="outlined">
-            <Paper className={classes.paper}><h1>About me</h1></Paper>
-          </Grid>
-          <Grid item xs={6}>
-           
-     
-          
-                {/* <Typography variant="h6" display="block" gutterBottom>
-                My name is Robbie, I'm a Graduate in University Of Toronto/Computer Science background. I have
-                a great passion for Web Development!.
-                <br/>
-                <br/>
-                <br/>
-                <PhoneAndroidIcon style={{ fontSize: 20 }}/> 416-525-5240
-                <br/>
-                <br/>
-           
-                <EmailIcon style={{ fontSize: 20 }} /> robbierao93@hotmail.com
-                
-
-                
-      </Typography> */}
+      <Fragment>
+      <div className="AboutContainer"> 
+      <h1 className="AboutHeader"> About me</h1>
+       <div id="about" className="cardcontainer" >
+  
       <AboutTerminal/>
-          
-          </Grid>
-          <Grid item xs={6} justifyContent='center' >
-          
-            <Paper className={classes.paper2}>
-             <h1>Skill Set</h1>
-            <Button color="secondary">SQL</Button>
-            <Button  color="primary">HTML</Button>
-            <Button color="secondary">CSS</Button>
-            <Button color="primary">JavaScript</Button>
-            <Button  color="secondary">React </Button>
-            <Button color="primary">Node</Button>
-            
-            </Paper>
-          </Grid>
-          <Grid item xs={12} variant="outlined">
-            
-          </Grid>
 
-          <Grid item xs={6} justifyContent='center' >
+   <div className="skillContainer">
+    <h1 className="skillheading">skills</h1>
+      <div className="skillcardwrap">
 
-
-          </Grid>
- 
-        </Grid>
+           <SkillCard img ={javascriptImg} name={"javascript"} />
+           <SkillCard img ={htmlImg} name={"HTML"} />
+           <SkillCard img ={cssImg} name={"CSS"}/>
+           <SkillCard img ={nodeImg} name={"Node"} />
+           <SkillCard img ={sqlImg} name={"SQL"} />
+           <SkillCard img ={reactImg}  name={"React"}/>
+  
       </div>
+      
+</div>
       </div>
+
+</div>
+      </Fragment>
     )
 }
 
